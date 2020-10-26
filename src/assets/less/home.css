@@ -1,0 +1,83 @@
+.home {
+  background-color: #f0f0f0;
+}
+.home .banner {
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px;
+}
+.home .search {
+  width: 200px;
+  margin-left: -18px;
+  margin-bottom: 10px;
+}
+.home .content {
+  background-color: #fff;
+}
+.home .user-info {
+  border-bottom: 1px solid #ddd;
+  margin: 0 20px;
+  padding: 20px 0;
+}
+.home .title {
+  display: flex;
+  padding: 10px 20px;
+  height: 60px;
+  background-color: #fff;
+}
+.home .logo-title {
+  font-size: 20px;
+  margin-left: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+.home .info-img {
+  width: 54px;
+  height: 54px;
+  margin-left: 10px;
+}
+.home .info-name {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: -54px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.home .info-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: -20px;
+}
+.home .product {
+  padding: 10px 20px;
+}
+.home .hot-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+.home .product-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.home .p-item {
+  width: 120px;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+.home .p-title {
+  font-size: 13px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.home .p-price {
+  font-size: 13px;
+  color: #549434;
+  font-weight: bold;
+}

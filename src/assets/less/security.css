@@ -1,0 +1,68 @@
+.security {
+  padding-top: 46px;
+}
+.security /deep/ .van-nav-bar .van-icon {
+  color: #6b6b6b;
+}
+.security .bg-box {
+  position: relative;
+}
+.security .bg {
+  margin-top: 100px;
+  height: 50px;
+  background-color: #549434;
+  border-radius: 50%;
+}
+.security .bg-boxs {
+  width: 100%;
+  height: 125px;
+  position: absolute;
+  left: 0;
+  top: -100px;
+  background-color: #549434;
+}
+.security .account-list {
+  margin-top: -60px;
+  padding: 0 20px;
+}
+.security .list-item {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.security /deep/ .van-cell {
+  line-height: 40px;
+  padding: 10px 20px;
+}
+.security .btn {
+  margin-top: 30px;
+}
+.security .update-text {
+  font-size: 16px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+.security .update-password {
+  padding: 10px;
+  overflow: hidden;
+}
+.security /deep/ .van-field__label {
+  width: 60px;
+  color: #323337;
+  font-size: 14px;
+  font-weight: 600;
+}
+.security .update-btn {
+  padding: 10px;
+}
+.security .not-login {
+  height: 100px;
+  background-color: #fff;
+  margin: 0 20px;
+  margin-top: -60px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 14px;
+  line-height: 50px;
+  position: relative;
+}

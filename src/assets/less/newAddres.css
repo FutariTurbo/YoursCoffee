@@ -1,0 +1,16 @@
+.newAddress {
+  padding-top: 46px;
+}
+.newAddress /deep/ .van-nav-bar .van-icon {
+  color: #6b6b6b;
+}
+.newAddress /deep/ .van-button--danger {
+  background-color: #549434;
+  border-color: #549434;
+}
+.newAddress /deep/ .van-button--round {
+  border-radius: 0;
+}
+.newAddress /deep/ .van-switch--on {
+  background-color: #549434;
+}

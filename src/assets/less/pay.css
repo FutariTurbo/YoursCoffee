@@ -1,0 +1,6 @@
+.pay {
+  padding-top: 46px;
+}
+.pay /deep/ .van-nav-bar .van-icon {
+  color: #6b6b6b;
+}

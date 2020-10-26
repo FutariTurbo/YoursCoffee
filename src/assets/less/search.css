@@ -1,0 +1,44 @@
+.search /deep/ .van-nav-bar .van-icon {
+  color: #6b6b6b;
+}
+.search /deep/ .van-nav-bar__text {
+  color: #6b6b6b;
+}
+.search .menu-product {
+  padding: 10px 10px;
+  background-color: #ebe9e9;
+}
+.search .product-item {
+  background-color: #fff;
+  display: flex;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.search .p-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.search .p-content {
+  margin-left: 20px;
+  line-height: 20px;
+  width: calc(100% - 80px);
+}
+.search .p-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+.search .p-enname {
+  color: #a5a5a5;
+}
+.search .p-price {
+  font-size: 15px;
+  font-weight: bold;
+  color: #549434;
+}
+.search .p-add {
+  font-size: 22px;
+  margin-top: -20px;
+}

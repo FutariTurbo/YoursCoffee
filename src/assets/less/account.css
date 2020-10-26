@@ -1,0 +1,73 @@
+.account {
+  padding-top: 46px;
+}
+.account /deep/ .van-nav-bar .van-icon {
+  color: #6b6b6b;
+}
+.account .bg-box {
+  position: relative;
+}
+.account .bg {
+  margin-top: 100px;
+  height: 50px;
+  background-color: #549434;
+  border-radius: 50%;
+}
+.account .bg-boxs {
+  width: 100%;
+  height: 125px;
+  position: absolute;
+  left: 0;
+  top: -100px;
+  background-color: #549434;
+}
+.account .account-list {
+  margin-top: -60px;
+  padding: 0 20px;
+}
+.account .list-item {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.account .user-img {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.account .uploader-box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.account /deep/ .van-cell {
+  line-height: 40px;
+  padding: 10px;
+}
+.account .nickname {
+  width: 100%;
+  padding: 0;
+}
+.account /deep/ .van-field__control {
+  text-align: right;
+  color: #969799;
+  font-size: 14px;
+}
+.account .list-icon {
+  color: #969799;
+  margin-left: 5px;
+}
+.account .textarea {
+  display: block;
+  width: 100%;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  resize: none;
+  color: #969799;
+  font-size: 14px;
+}

@@ -1,0 +1,149 @@
+.order {
+  padding-top: 46px;
+  padding-bottom: 50px;
+}
+.order /deep/ .van-nav-bar .van-icon {
+  color: #6b6b6b;
+}
+.order .order-adv {
+  height: 200px;
+  background-image: url(../images/adv_02.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.order .order-address {
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+.order .address-box {
+  background-color: #fff;
+  margin: 0 10px;
+  border-radius: 10px;
+  margin-top: -30px;
+}
+.order .choose-address {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.order .addr-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+.order .addr-arrow {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.order .user-info {
+  padding: 0 20px;
+}
+.order .info-title {
+  font-size: 14px;
+  font-weight: bold;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+.order .info-box {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #a0a2a5;
+  padding-bottom: 10px;
+}
+.order .info-phone {
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.order .order-product {
+  padding: 0 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 20px 10px;
+}
+.order .pro-item {
+  display: flex;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+.order .porduct-img {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+.order .porduct-info {
+  width: calc(100% - 78px);
+  margin-left: 10px;
+}
+.order .info-item-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.order .info-title-box {
+  font-size: 16px;
+  font-weight: bold;
+}
+.order .info-specs {
+  font-size: 13px;
+  color: #a09e9e;
+}
+.order .info-count {
+  color: #a09e9e;
+}
+.order .info-price {
+  font-size: 14px;
+  font-weight: bold;
+  color: #549434;
+}
+.order .line {
+  margin-top: 20px;
+  padding: 20px 10px;
+  border-top: 1px dashed #cacaca;
+}
+.order .porduct-count {
+  font-size: 14px;
+  font-weight: bold;
+}
+.order .num {
+  font-size: 16px;
+  color: #549434;
+}
+.order /deep/ .van-submit-bar__button--danger {
+  background: #549434;
+  margin-left: auto;
+}
+.order /deep/ .van-button--round {
+  border-radius: 0;
+}
+.order /deep/ .van-submit-bar__text {
+  text-align: left;
+}
+.order /deep/ .van-submit-bar__price {
+  color: #549434;
+  font-weight: bold;
+}
+.order /deep/ .van-address-item .van-radio__icon--checked .van-icon {
+  border-color: #549434;
+}
+.order /deep/ .van-address-item .van-radio__icon--checked .van-icon {
+  background-color: #549434;
+}
+.order /deep/ .van-tag--danger {
+  background-color: #549434;
+}
+.order /deep/ .van-button--danger {
+  background-color: #549434;
+  border-color: #549434;
+}
+.order /deep/ .van-password-input {
+  margin-top: 50px;
+}
+.order /deep/ [class*=van-hairline]::after {
+  border-color: #aaa;
+}

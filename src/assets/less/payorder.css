@@ -1,0 +1,134 @@
+.payorder {
+  padding-top: 46px;
+}
+.payorder /deep/ .van-nav-bar .van-icon {
+  color: #6b6b6b;
+}
+.payorder .pro-list {
+  padding: 0 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 20px 10px;
+  position: relative;
+}
+.payorder .state-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  border-bottom: 1px dashed #cacaca;
+  position: relative;
+}
+.payorder .bg {
+  width: 15px;
+  height: 15px;
+  background-color: #f4f4f4;
+  border-radius: 50%;
+  position: absolute;
+  left: -15px;
+  bottom: -8px;
+}
+.payorder .bg-box {
+  width: 15px;
+  height: 15px;
+  background-color: #f4f4f4;
+  border-radius: 50%;
+  position: absolute;
+  right: -15px;
+  bottom: -8px;
+}
+.payorder .order-num {
+  font-size: 14px;
+  color: #a09e9e;
+}
+.payorder .order-state {
+  font-size: 14px;
+  color: #549434;
+}
+.payorder .finish-box {
+  font-size: 14px;
+  color: #a09e9e;
+}
+.payorder .finish-icon {
+  width: 18px;
+  height: 18px;
+  background-image: url(../images/del.png);
+  background-position: center;
+  background-size: cover;
+  margin-left: 10px;
+}
+.payorder .finish-box {
+  display: flex;
+}
+.payorder .pro-item {
+  display: flex;
+  padding-top: 10px;
+}
+.payorder .porduct-img {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+.payorder .porduct-info {
+  width: 100%;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.payorder .pay-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.payorder .info-item-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+.payorder .info-title-box {
+  font-size: 14px;
+  font-weight: bold;
+}
+.payorder .order-time {
+  font-size: 12px;
+  color: #a09e9e;
+  position: absolute;
+  right: 20px;
+  top: 50px;
+}
+.payorder .info-specs {
+  font-size: 13px;
+  color: #a09e9e;
+}
+.payorder .price-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  line-height: 32px;
+}
+.payorder .info-count {
+  color: #a09e9e;
+}
+.payorder .info-price {
+  font-size: 12px;
+  color: #549434;
+}
+.payorder .porduct-count,
+.payorder .pay {
+  font-size: 14px;
+}
+.payorder .num,
+.payorder .pay-price {
+  font-size: 16px;
+  color: #549434;
+  font-weight: bold;
+}
+.payorder .info-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.payorder .info-box {
+  flex: 1;
+}

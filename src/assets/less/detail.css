@@ -1,0 +1,99 @@
+.detail .detail-info {
+  position: relative;
+  top: -20px;
+  background-color: #fff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.detail .specs-box {
+  padding: 20px;
+  padding-bottom: 30px;
+}
+.detail .specs-item {
+  border-bottom: 1px solid #e6e3e3;
+  padding-bottom: 30px;
+}
+.detail .sp-name {
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+}
+.detail .cloes {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #363636;
+}
+.detail .sp-enname {
+  font-size: 18px;
+  margin-top: 5px;
+  color: #bbbbbb;
+}
+.detail .sp-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.detail .sp-option {
+  display: flex;
+}
+.detail .sp-info {
+  margin-top: 10px;
+  font-size: 14px;
+  margin-left: 30px;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #7c7c7c;
+}
+.detail .sp-info.active {
+  background-color: #ebebeb;
+  color: #121212;
+  border-radius: 10px;
+}
+.detail .sp-desc {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.detail .desc-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+.detail .desc-info {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #999999;
+  padding: 0 10px;
+}
+.detail .price {
+  padding: 20px;
+  border-bottom: 1px solid #e6e3e3;
+}
+.detail .sp-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #549434;
+}
+.detail /deep/ .van-stepper--round .van-stepper__minus {
+  border-color: #80a76d;
+  color: #80a76d;
+}
+.detail /deep/ .van-stepper--round .van-stepper__plus {
+  background-color: #549434;
+}
+.detail /deep/ .van-goods-action-button {
+  border: 1px solid #549434;
+  border-right: none;
+}
+.detail /deep/ .van-info {
+  background-color: #549434;
+}
+.detail /deep/ .van-goods-action-button--first {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.detail /deep/ .van-goods-action-button--last {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
